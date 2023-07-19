@@ -3,3 +3,64 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+/* General */
+:root{
+  --orange: #FF6900;
+  --white: #FFF;
+  --black:#000000;
+  --black-footer: #1A1A1A;
+  --green: #008000;
+  --red: #FF0100;
+}
+
+body{
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+/* Header */
+
+header{
+  width: 100%;
+  background-color: var(--orange);
+  padding: 10px 0px;
+}
+
+.container{
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  width: 10%;
+  padding: 10px;
+}
+
+.flexmenu{
+  display: flex;
+  color: var(--white);
+}
+
+.flexmenu li{
+  list-style: none;
+  flex-direction: row;
+  padding: 0 10px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  
+}
