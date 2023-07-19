@@ -64,3 +64,30 @@ header{
   font-size: 15px;
   
 }
+/*fine impostazioni menu*/
+/*inizio del main*/
+main{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.row-flex{
+  display: flex;
+  margin-top: 50px;
+}
+.column {
+  width: calc(100% - 10px/ 3);
+  position: relative;
+  cursor: pointer;
+}
+
+.column img{
+  width: 100%;
+  padding: 0 5px;
+}
+.margin{
+  margin: 0 5px;
+}
+
+
+
